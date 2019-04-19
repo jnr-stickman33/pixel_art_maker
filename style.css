@@ -1,0 +1,48 @@
+
+/* @author: derick */
+/* Styling HTML page for Pixel Art Project */
+
+body {
+    text-align: center;
+    background: rgb(0, 206, 254) url("pixel_art2.jpg") no-repeat fixed center;
+}
+/* Configure style for Header */
+h1 {
+    font-family: Monoton;
+    font-size: 70px;
+    margin: 0.2em;
+    color: rgb(0, 0, 0);
+}
+
+h2 {
+    margin: 1em 0 0.25em;
+    color: rgb(60, 60, 60);
+}
+
+h2:first-of-type {
+    margin-top: 0.5em;
+    color: rgb(60, 60, 60);
+}
+/* Styling grid lines */
+table,
+tr,
+td {
+    border: 1px solid black;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+tr {
+    height: 20px;
+}
+
+td {
+    width: 20px;
+}
+
+input[type=number] {
+    width: 6em;
+}
